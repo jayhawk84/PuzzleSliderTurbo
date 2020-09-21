@@ -18,7 +18,7 @@ The concept is a variation on the old 15-puzzle sliding piece game, where a squa
 7) [Use Case/Req/UML (forthcoming)]
 8) [Testing (forthcoming)]
 9) [Prototype](#prototype)
-10)[Early Web App](#early-build)
+10) [Early Web App](#early-build)
 
 ## <div align="center">WHY</div>
 [(Table of contents)](#table-of-contents)
