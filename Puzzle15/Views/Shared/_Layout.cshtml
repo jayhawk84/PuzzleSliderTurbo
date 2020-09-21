@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Puzzle15</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            padding-top: 8vh;
+            //background: #222;
+            color: #111
+        }
+
+        .txt {
+            color: #000;
+            text-align: center;
+            font-size: 5vh
+        }
+
+        .board {
+            padding: 0;
+            margin: auto;
+            width: 33vh;
+            height: 33vh
+        }
+
+        .button, .empty {
+            border: 0;
+            font-size: 3.5vh;
+            //margin: 0.5vh;
+            padding: 0;
+            height: 25%;
+            //width: 7.25vh;
+            width: 25%;
+            line-height: 5vh;
+            vertical-align: middle;
+            background: lightblue;
+            text-align: center;
+            //border-radius: 3px;
+            cursor: pointer;
+            float: left
+        }
+
+        .empty {
+            background: #333;
+            border: 1px solid #111
+        }
+    </style>
+</head>
+<body onload="start()">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Puzzle15</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - Puzzle15 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Puzzle15.js"></script>
+    <script src="~/js/canvasjs.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
