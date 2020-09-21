@@ -18,6 +18,7 @@ The concept is a variation on the old 15-puzzle sliding piece game, where a squa
 7) [Use Case/Req/UML (forthcoming)]
 8) [Testing (forthcoming)]
 9) [Prototype](#prototype)
+10)[Early Web App](#early-build)
 
 ## <div align="center">WHY</div>
 [(Table of contents)](#table-of-contents)
@@ -51,4 +52,9 @@ The mobile layout would be similar to the desktop in that the buttons would all 
 [(Table of contents)](#prototype)
 ![PROTOTYPE](https://github.com/jayhawk84/SuperPuzzleSliderTurbo/blob/master/PuzzleMedia/Prototype.PNG)
 #### <div align="center"><a href="https://ojbh74.axshare.com/#id=ithaj4&p=page_1" target="_blank">Interactive Axure Prototype (link)</a></div>
+
+## <div align="center">EARLY BUILD</div>
+[(Table of contents)](#early-build)
+#### This is a screenshot of the initial build, using numbers instead of an image until I can figure out how to assign image pieces to the array
+![EARLY BUILD](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/puzzleOnline.PNG)
 
