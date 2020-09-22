@@ -26,7 +26,7 @@ function updateBtns() {
             b = document.getElementById(id);
             v = board[i][j];
             if (v < 16) {
-                b.innerHTML = ("i" + v);
+                b.innerHTML = ("" + v);
                 b.className = "button"
             }
             else {

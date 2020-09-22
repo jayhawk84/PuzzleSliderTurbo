@@ -6,7 +6,8 @@
     <title>@ViewData["Title"] - Puzzle15</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <style>
+    <link rel="stylesheet" href="~/css/PuzzleStyle.css" />
+    <!--<style>
         html, body {
             padding: 0;
             margin: 0;
@@ -49,9 +50,9 @@
             background: #333;
             border: 1px solid #111
         }
-    </style>
+    </style>-->
 </head>
-<body onload="start()">
+<body onload="">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -89,6 +90,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/Puzzle15.js"></script>
     <script src="~/js/canvasjs.min.js"></script>
+    <script src="~/js/NewPuzzle.js" ></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
