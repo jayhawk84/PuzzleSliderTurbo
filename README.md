@@ -61,5 +61,17 @@ The mobile layout would be similar to the desktop in that the buttons would all 
 #### This is a screenshot of a different build, using a picture I took in Hawaii.  I am still trying to figure out the best combination of code that isn't reliant on hard-coded numbers, so this will inevitably change.  But it looks good with a picture.
 ![EARLY BUILD](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/puzzlePicture.PNG)
 
-## Database screenshot
+## Database screenshots
 ![Database](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/SSMS_table_data.jpg)
+
+### Connected SQL Server Management Studio successfully
+![Database](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/VS_SSMS.PNG)
+
+### View of Puzzle Pictures Table in web app
+![Database](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/VS_SSMS2.PNG)
+
+### Create a new Picture name
+![Database](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/VS_SSMS2.5.PNG)
+
+### Successful entry in web app
+![Database](https://github.com/jayhawk84/PuzzleSliderTurbo/blob/master/PuzzleMedia/VS_SSMS3.PNG)
