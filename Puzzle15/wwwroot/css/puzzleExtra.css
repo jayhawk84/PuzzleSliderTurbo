@@ -1,0 +1,32 @@
+﻿.side-col a.btn {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    padding: 2rem;
+}
+
+.btn-primary {
+    margin: auto;
+}
+
+.puzzle-col {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+    .side-col a.btn {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 812px) and (min-width: 768px){
+        .puzzle-col {
+            margin-top: 2.5%;
+        }
+
+        .col-use-this a.btn-primary {
+            width: 70% !important;
+        }
+    }
+

@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-12 col-md-3">
+    <div class="col-sm-12 col-md-3 col-use-this">
         <div class="card text-center">
             <img src="/images/2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -41,7 +41,21 @@
             <a href="#" class="btn btn-primary btn-block">HARD</a>
         </div>
         <div class="col-sm-12 col-md-6">
-            <img src="/images/2.jpg" class="img-fluid" />
+            <!--<img src="/images/2.jpg" class="img-fluid" />-->
+            <p><button class="btn btn-primary btn-lg" onclick="restart()">Start!</button></p>
+            <div id="overall">
+                <div id="puzzlearea">
+                    <!-- the following are the fifteen puzzle pieces -->
+                    <div>1</div>  <div>2</div>  <div>3</div>  <div>4</div>
+                    <div>5</div>  <div>6</div>  <div>7</div>  <div>8</div>
+                    <div>9</div>  <div>10</div> <div>11</div> <div>12</div>
+                    <div>13</div> <div>14</div> <div>15</div>
+                </div>
+
+                <div id="controls">
+                    <button id="shufflebutton">Shuffle</button>
+                </div>
+            </div>
         </div>
         <div class="col-sm-12 col-md-3 side-col">
             <a href="#" class="btn btn-primary btn-block">COLOR</a>
@@ -49,29 +63,29 @@
             <a href="#" class="btn btn-primary btn-block">LINE</a>
         </div>
     </div>
-    </div>
-    <!--
-    <h1 class="display-4 text-center">Super Puzzle Slider Turbo</h1>
-    <button class="btn btn-primary btn-lg">Start!</button>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a asp-action="Index" asp-controller="Pictures" class="btn btn-primary">Pictures</a>
-            </div>
-        </div>
-    </div>-->
-    <!--
-    <p><button class="btn btn-primary btn-lg" onclick="restart()">Start!</button></p>
-    <div id="overall">
-        <div id="puzzlearea">
-            <!-- the following are the fifteen puzzle pieces --
-            <div>1</div>  <div>2</div>  <div>3</div>  <div>4</div>
-            <div>5</div>  <div>6</div>  <div>7</div>  <div>8</div>
-            <div>9</div>  <div>10</div> <div>11</div> <div>12</div>
-            <div>13</div> <div>14</div> <div>15</div>
-        </div>
+</div>
+            <!--
+            <h1 class="display-4 text-center">Super Puzzle Slider Turbo</h1>
+            <button class="btn btn-primary btn-lg">Start!</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a asp-action="Index" asp-controller="Pictures" class="btn btn-primary">Pictures</a>
+                    </div>
+                </div>
+            </div>-->
+                    <!--
+            <p><button class="btn btn-primary btn-lg" onclick="restart()">Start!</button></p>
+            <div id="overall">
+                <div id="puzzlearea">
+                    <!-- the following are the fifteen puzzle pieces --
+                    <div>1</div>  <div>2</div>  <div>3</div>  <div>4</div>
+                    <div>5</div>  <div>6</div>  <div>7</div>  <div>8</div>
+                    <div>9</div>  <div>10</div> <div>11</div> <div>12</div>
+                    <div>13</div> <div>14</div> <div>15</div>
+                </div>
 
-        <div id="controls">
-            <button id="shufflebutton">Shuffle</button>
-        </div>
-    </div>-->
+                <div id="controls">
+                    <button id="shufflebutton">Shuffle</button>
+                </div>
+            </div>-->
