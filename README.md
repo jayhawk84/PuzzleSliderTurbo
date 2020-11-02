@@ -16,7 +16,7 @@ The concept is a variation on the old 15-puzzle sliding piece game, where a squa
 5) [Entity Relationship Diagram (ERD) (forthcoming)]
 6) [User Stories](#user-stories)
 7) [Use Case/Req/UML (forthcoming)]
-8) [Testing (forthcoming)]
+8) [Testing](#testing)
 9) [Prototype](#prototype)
 10) [Early Web App](#early-build)
 
@@ -47,6 +47,16 @@ The mobile layout would be similar to the desktop in that the buttons would all 
 1. As an anonymous user, I want to be able to play the game without having to login or register.
 2. As a user, I want to be able to cycle through different images if I do not like the initial image and pick a different one to slide.
 3. As a user, I would like to have varying levels of difficulty available when I play the game.
+
+## <div align="center">TESTING</div>
+[(Table of contents)](#table-of-contents)
+| ID |  Requirement Testing - Puzzle Slider Turbo                   |Implemented?| Initial |      Status       | Test Method |
+|----|-------------------------------------------------------------------------------|------------|---------|-------------------|-------------|
+|T1  |	Verify controller can access database with context file                       |     Yes    | Tested  | passed (10/31/20) |Inspection   |
+|T2  |	Verify pictures can be accessed from media folder                             |     Yes    | Tested  | passed (10/31/20) |Inspection   |
+|T3  |	Verify that buttons format on different screens properly                      |     Yes    | Tested  | passed (10/31/20) |Inspection   |
+|T4  |	Verify different photos will show in puzzle boxes                             |     Yes    | Tested  | passed (10/31/20) |Inspection   |
+|T5  |	Verify the puzzle boxes can slide and move and puzzle is solvable             |     Yes    | Tested  | passed (10/31/20) |Inspection   |
 
 ## <div align="center">PROTOTYPE</div>
 [(Table of contents)](#prototype)
